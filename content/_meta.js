@@ -1,7 +1,7 @@
 export default {
   introduction: 'Introduction',
-  process: 'Process',
-  domains: 'Domains',
+  process: 'The planning process',
+  domains: 'Knowledge areas',
   tools: 'Tools',
   glossary: 'Glossary',
   about: 'About'
