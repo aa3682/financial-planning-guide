@@ -9,7 +9,7 @@ Audience: the general public first, practicing financial advisors second. Write 
 1. Never reference any professional certification body, certification mark, licensing exam, official curriculum, or official topic list — anywhere: page copy, titles, slugs, frontmatter, alt text, README, comments, commit messages. No certification acronyms, no "certified" phrasing. Describe concepts in plain language instead.
 2. All content is original. No verbatim or lightly paraphrased text from textbooks, study guides, courses, or official publications. When a fact needs support, cite a public primary source (statute, IRS publication, SEC or FINRA rule, court decision, peer-reviewed paper) with a link.
 3. Content is educational, not individualized advice. The standard disclaimer lives on each section landing page only (introduction, process, domains, tools). Do not repeat it on individual pages.
-4. Do not invent statistics, thresholds, contribution limits, or tax figures. If a number is year-specific, state the year and cite the source. If unsure, write "[VERIFY]" inline and list it in the report.
+4. Do not invent statistics, thresholds, contribution limits, or tax figures. If a number is year-specific, state the year and cite the source. If unsure, write "[VERIFY]" inline and list it in the report. On knowledge-area pages the figures rule in the area template takes precedence: the number goes on /tools/this-years-figures, not on the page.
 5. No personal data, no real client examples. Worked examples use obviously fictional people.
 
 ## Structure
@@ -59,14 +59,14 @@ Area page skeleton:
 5. "Where it shows up in the process" — links to the relevant step pages.
 6. "Common misconceptions"
 7. "For advisors" — a Callout, same treatment as above.
-8. "Go deeper" — 2–4 links to public primary sources (statutes, IRS publications, SEC or FINRA rules, academic papers).
+8. "Go deeper" — 2–4 links to public primary sources: statutes and regulations, IRS publications, SEC and FINRA rules, and explainer pages from federal agencies (FDIC, NCUA, CFPB, BLS, Federal Reserve, Social Security Administration, Department of Labor, HHS/CMS), plus academic papers.
 
 Conventions for both:
 - 700–1,000 words.
 - Second person, plain English. No jargon without a one-line explanation.
 - Headings are plain nouns or short questions. H2 for the numbered sections above, H3 within them.
 - No disclaimer on individual pages; it lives on the landing pages only.
-- Area pages never print yearly-changing figures — contribution limits, tax brackets, age thresholds, dollar thresholds, rates, deadlines. Where a figure is relevant, name the concept in plain language and link to /tools/this-years-figures (for example: 'up to the yearly limit — see this year's figures'). That page holds every number with its year and primary source and is updated once a year. Every 'Go deeper' link must be fetched and confirmed live before the PR is opened; any link that cannot be confirmed is marked [VERIFY] in the report.
+- Area pages never print yearly-changing figures — contribution limits, tax brackets, age thresholds, dollar thresholds, rates, deadlines. Where a figure is relevant, name the concept in plain language and link to /tools/this-years-figures (for example: 'up to the yearly limit — see this year's figures'). That page holds every number with its year and primary source and is updated once a year. Every 'Go deeper' link must be fetched and confirmed live before the PR is opened; any link that cannot be confirmed is marked [VERIFY] in the report. The rule covers figures set by law, regulation, or an agency. Round hypothetical numbers in a worked example ('$200 a month for ten years') are fine and encouraged.
 - Internal links use the site's existing slugs. Check the actual paths under content/ before writing a link.
 - The Callout is the stock component from nextra/components, the same one the landing pages use. Import it with exactly this line: `import { Callout } from 'nextra/components'`
 - The hard rules and writing style above apply in full to page bodies, headings, and frontmatter, including titles, descriptions, and slugs.
