@@ -37,6 +37,7 @@ Step and domain names are provided by the owner in prompts; do not rename or reo
 
 ## Page templates
 Two fixed skeletons. Every page under process/ uses the step skeleton. Every page under domains/ (the knowledge areas) uses the area skeleton. Write the sections in the order given; do not add, remove, or reorder them.
+Every step page lives at `content/process/<slug>/index.mdx` and every knowledge-area page at `content/domains/<slug>/index.mdx`, one folder per page, matching the existing scaffold.
 
 Step page skeleton:
 1. Frontmatter with `title` and `description`. The description is one sentence, plain language.
