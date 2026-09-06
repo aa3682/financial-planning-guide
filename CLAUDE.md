@@ -66,7 +66,7 @@ Conventions for both:
 - Second person, plain English. No jargon without a one-line explanation.
 - Headings are plain nouns or short questions. H2 for the numbered sections above, H3 within them.
 - No disclaimer on individual pages; it lives on the landing pages only.
-- Any dollar figure, limit, rate, or age threshold that can change is cited to its primary source with the applicable year stated. Never present it as permanent.
+- Area pages never print yearly-changing figures — contribution limits, tax brackets, age thresholds, dollar thresholds, rates, deadlines. Where a figure is relevant, name the concept in plain language and link to /tools/this-years-figures (for example: 'up to the yearly limit — see this year's figures'). That page holds every number with its year and primary source and is updated once a year. Every 'Go deeper' link must be fetched and confirmed live before the PR is opened; any link that cannot be confirmed is marked [VERIFY] in the report.
 - Internal links use the site's existing slugs. Check the actual paths under content/ before writing a link.
 - The Callout is the stock component from nextra/components, the same one the landing pages use. Import it with exactly this line: `import { Callout } from 'nextra/components'`
 - The hard rules and writing style above apply in full to page bodies, headings, and frontmatter, including titles, descriptions, and slugs.
