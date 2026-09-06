@@ -72,6 +72,7 @@ Conventions for both:
 
 ## How to work
 - Do exactly what the prompt asks. Do not add sections, pages, or features that were not requested.
+- Do only what the current prompt asks. Do not act on your own follow-up suggestions, and do not edit files outside the scope of the prompt, even to fix something you notice. List anything you would have done under a "Suggested follow-ups" heading at the end of your report and in the PR description, and leave it there.
 - Commit after each completed prompt with a one-line message describing the change. Never push unless the prompt says to push.
 - Never delete or rewrite existing content pages unless the prompt names the file.
 - End every task with a "Report" section: what was created or changed (file paths), anything marked [VERIFY], anything you were unsure about, and the exact command to view the result.
