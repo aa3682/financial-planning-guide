@@ -31,7 +31,7 @@ Step and domain names are provided by the owner in prompts; do not rename or reo
 
 ## Writing style
 - Plain English, short paragraphs, active voice. Define a term the first time it appears and link it to the glossary.
-- Each content page: one H1, a two-sentence summary under it, then H2 sections. End with a "Related" list linking to 2–4 other pages.
+- Landing pages and any page outside content/process/ and content/domains/: one H1, a two-sentence summary under it, then H2 sections. End with a "Related" list linking to 2–4 other pages. Pages under those two folders follow the Page templates section instead: the opening paragraph replaces the summary, and the cross-link sections replace the Related list.
 - Use Nextra callouts sparingly: one "Note" or "Warning" per page at most.
 - Tables for comparisons; bullet lists for steps; prose for explanation.
 
@@ -40,23 +40,25 @@ Two fixed skeletons. Every page under process/ uses the step skeleton. Every pag
 
 Step page skeleton:
 1. Frontmatter with `title` and `description`. The description is one sentence, plain language.
-2. Opening paragraph, no heading: what this step is, in plain words.
-3. "Why it matters"
-4. "What actually happens" — 3–5 short H3 subsections describing the concrete work.
-5. "Questions to ask yourself"
-6. "Common mistakes"
-7. "Which knowledge areas apply" — links to 2–4 area pages, one line each on why it applies at this step.
-8. "For advisors" — a Callout, 3–6 sentences: what you are doing with the client at this step and what to document.
-9. "Next step" — one link to the following step page. The last step links back to the first.
+2. H1 matching the frontmatter title.
+3. Opening paragraph, no heading: what this step is, in plain words.
+4. "Why it matters"
+5. "What actually happens" — 3–5 short H3 subsections describing the concrete work.
+6. "Questions to ask yourself"
+7. "Common mistakes"
+8. "Which knowledge areas apply" — links to 2–4 area pages, one line each on why it applies at this step.
+9. "For advisors" — a Callout, 3–6 sentences: what you are doing with the client at this step and what to document.
+10. "Next step" — one link to the following step page. The last step links back to the first.
 
 Area page skeleton:
 1. Frontmatter with `title` and `description`.
-2. Opening paragraph, no heading.
-3. "Key ideas" — 4–7 H3 subsections, one concept each.
-4. "Where it shows up in the process" — links to the relevant step pages.
-5. "Common misconceptions"
-6. "For advisors" — a Callout, same treatment as above.
-7. "Go deeper" — 2–4 links to public primary sources (statutes, IRS publications, SEC or FINRA rules, academic papers).
+2. H1 matching the frontmatter title.
+3. Opening paragraph, no heading.
+4. "Key ideas" — 4–7 H3 subsections, one concept each.
+5. "Where it shows up in the process" — links to the relevant step pages.
+6. "Common misconceptions"
+7. "For advisors" — a Callout, same treatment as above.
+8. "Go deeper" — 2–4 links to public primary sources (statutes, IRS publications, SEC or FINRA rules, academic papers).
 
 Conventions for both:
 - 700–1,000 words.
