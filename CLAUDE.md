@@ -85,7 +85,7 @@ Worksheet page (tools):
 - Path: `content/tools/<slug>/index.mdx`, one folder per page.
 - 700–1,000 words of body prose, tables excluded. Measure with pnpm wordcount <path>.
 - Second person, plain English.
-- Sections in this order: intro paragraph (no heading), first input section, second input section, "The result", "How to read it", "For advisors" Callout, Related.
+- H2 sections in this order, headings only: "What this measures", "Before you start", first input section, second input section, "The result", "What the number does and does not tell you", "What to do with it", "For advisors" (Callout), then Related.
 - Input section names are worksheet-specific (net worth: "What you own" / "What you owe"; cash flow: "Money in" / "Money out").
 - Tables have three columns at most so they render on a phone without horizontal scrolling.
 - No regulated figures. Name the concept and link the matching section of /tools/this-years-figures.
