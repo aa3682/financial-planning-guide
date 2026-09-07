@@ -13,7 +13,7 @@ Audience: the general public first, practicing financial advisors second. Write 
 5. No personal data, no real client examples. Worked examples use obviously fictional people.
 
 ## Attribution and license
-- The site names no author, employer, credentials, or licenses anywhere. It refers to its maintainer only as "one practitioner".
+- The guide is published under the AlignFlow brand. The site names no personal name, employer, credentials, or licenses anywhere, on pages or in metadata. Its author is described only by years of experience: "one practitioner with more than fifteen years inside wealth management".
 - Prose is CC BY 4.0 and code is MIT. This is stated on /about and in README.
 - The About page carries one sentence of the landing-page disclaimer as plain prose, not the full Callout. This is intentional.
 
