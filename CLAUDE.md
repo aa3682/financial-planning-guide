@@ -81,6 +81,17 @@ Conventions for both:
 - The Callout is the stock component from nextra/components, the same one the landing pages use. Import it with exactly this line: `import { Callout } from 'nextra/components'`
 - The hard rules and writing style above apply in full to page bodies, headings, and frontmatter, including titles, descriptions, and slugs.
 
+Worksheet page (tools):
+- Path: `content/tools/<slug>/index.mdx`, one folder per page.
+- 700–1,000 words of body prose, tables excluded. Measure with pnpm wordcount <path>.
+- Second person, plain English.
+- H2 sections in this order, headings only: "What this measures", "Before you start", "What you own", "What you owe", "The result", "What the number does and does not tell you", "What to do with it", "For advisors".
+- Tables have three columns at most so they render on a phone without horizontal scrolling.
+- No regulated figures. Name the concept and link the matching section of /tools/this-years-figures.
+- "For advisors" is a Callout and comes last, followed only by the Related list.
+- No disclaimer.
+- Example values in tables and worked examples are round hypothetical numbers.
+
 ## How to work
 - Do exactly what the prompt asks. Do not add sections, pages, or features that were not requested.
 - Commit after each completed prompt with a one-line message describing the change. Never push unless the prompt says to push.
