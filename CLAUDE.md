@@ -62,7 +62,7 @@ Area page skeleton:
 8. "Go deeper" — 2–4 links to public primary sources: statutes and regulations, IRS publications, SEC and FINRA rules, and explainer pages from federal agencies (FDIC, NCUA, CFPB, BLS, Federal Reserve, Social Security Administration, Department of Labor, HHS/CMS), plus academic papers.
 
 Conventions for both:
-- 700–1,000 words.
+- 700–1,000 words. Word count means body prose only — headings, tables, the Callout title, and Go deeper link titles are excluded.
 - Second person, plain English. No jargon without a one-line explanation.
 - Headings are plain nouns or short questions. H2 for the numbered sections above, H3 within them.
 - No disclaimer on individual pages; it lives on the landing pages only.
