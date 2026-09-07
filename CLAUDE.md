@@ -12,6 +12,11 @@ Audience: the general public first, practicing financial advisors second. Write 
 4. Do not invent statistics, thresholds, contribution limits, or tax figures. If a number is year-specific, state the year and cite the source. If unsure, write "[VERIFY]" inline and list it in the report. On knowledge-area pages the figures rule in the area template takes precedence: the number goes on /tools/this-years-figures, not on the page.
 5. No personal data, no real client examples. Worked examples use obviously fictional people.
 
+## Attribution and license
+- The site names no author, employer, credentials, or licenses anywhere. It refers to its maintainer only as "one practitioner".
+- Prose is CC BY 4.0 and code is MIT. This is stated on /about and in README.
+- The About page carries one sentence of the landing-page disclaimer as plain prose, not the full Callout. This is intentional.
+
 ## Structure
 Top-level sections, in this sidebar order:
 1. introduction

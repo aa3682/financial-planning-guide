@@ -23,3 +23,9 @@ pnpm start
 ```
 
 `pnpm build` also generates the search index (Pagefind) into `public/_pagefind`.
+
+`pnpm wordcount <path>` counts the body prose of a content page, following the word-count rules in `CLAUDE.md`.
+
+## License
+
+The prose in `content/` is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The code is licensed under MIT (see `LICENSE`).
