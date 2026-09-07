@@ -24,6 +24,8 @@ pnpm start
 
 `pnpm build` also generates the search index (Pagefind) into `public/_pagefind`.
 
+Merges to `main` deploy automatically to Vercel.
+
 `pnpm wordcount <path>` counts the body prose of a content page, following the word-count rules in `CLAUDE.md`.
 
 ## License
