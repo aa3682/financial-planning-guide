@@ -59,7 +59,7 @@ Area page skeleton:
 5. "Where it shows up in the process" — links to the relevant step pages.
 6. "Common misconceptions"
 7. "For advisors" — a Callout, same treatment as above.
-8. "Go deeper" — 2–4 links to public primary sources: statutes and regulations, IRS publications, SEC and FINRA rules, and explainer pages from federal agencies (FDIC, NCUA, CFPB, BLS, Federal Reserve, Social Security Administration, Department of Labor, HHS/CMS), plus academic papers.
+8. "Go deeper" — 2–6 links, prefer fewer, to public primary sources: statutes and regulations, IRS publications, SEC and FINRA rules, and explainer pages from federal agencies (FDIC, NCUA, CFPB, BLS, Federal Reserve, Social Security Administration, Department of Labor, HHS/CMS), plus academic papers.
 
 Conventions for both:
 - 700–1,000 words. Word count means body prose only — headings, tables, the Callout title, and Go deeper link titles are excluded.
@@ -68,6 +68,7 @@ Conventions for both:
 - Headings are plain nouns or short questions. H2 for the numbered sections above, H3 within them.
 - No disclaimer on individual pages; it lives on the landing pages only.
 - Area pages never print yearly-changing figures — contribution limits, tax brackets, age thresholds, dollar thresholds, rates, deadlines. Where a figure is relevant, name the concept in plain language and link to /tools/this-years-figures (for example: 'up to the yearly limit — see this year's figures'). That page holds every number with its year and primary source and is updated once a year. Every 'Go deeper' link must be fetched and confirmed live before the PR is opened; any link that cannot be confirmed is marked [VERIFY] in the report. The rule covers figures set by law, regulation, or an agency. Round hypothetical numbers in a worked example ('$200 a month for ten years') are fine and encouraged.
+- Links to the U.S. Code use the granuleid form: https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title26-section2523&num=0&edition=prelim (substitute the title and section). The "title:NN section:NNN" form is not used.
 - Row schema on /tools/this-years-figures: one figure per row, columns Concept | What it governs | Value | Year | Source, grouped under one H2 per knowledge area with a stable id (`## Area name [#slug]`) in the site's order. A figure appears once, under the area it fits best. Every Value comes from a fetched primary source or reads VERIFY; never fill a Value from memory.
 - Figures that vary by state: Value reads "Varies by state", Year is blank, and Source links a federal locator page if one exists or otherwise names the state office in plain text ("Your state's insurance regulator", "Your state's department of revenue"). Never build a per-state table.
 - Figures fixed by statute that do not change yearly still get a row: Year reads "Set by statute" and Source links the statute or the agency page.
