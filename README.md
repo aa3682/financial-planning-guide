@@ -4,7 +4,7 @@ An open, plain-English guide to personal financial planning, organized around th
 
 Built with [Nextra](https://nextra.site) (docs theme) on Next.js. Content lives in `content/` as MDX.
 
-The Tools section holds a net worth worksheet, a cash flow worksheet, and a yearly figures page that gathers every limit, rate, and threshold the guide refers to, with sources.
+The Tools section holds a net worth worksheet, a cash flow worksheet, a goals checklist, and a yearly figures page that gathers every limit, rate, and threshold the guide refers to, with sources.
 
 ## Run locally
 
