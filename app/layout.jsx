@@ -8,8 +8,8 @@ const REPO_URL = 'https://github.com/aa3682/financial-planning-guide'
 
 export const metadata = {
   title: {
-    default: 'Financial Planning Guide',
-    template: '%s – Financial Planning Guide'
+    default: 'Financial Planning Guide – AlignFlow',
+    template: '%s – AlignFlow'
   },
   description:
     'An open, plain-English guide to personal financial planning, organized around the planning process.'
@@ -22,8 +22,8 @@ export default async function RootLayout({ children }) {
       <Head />
       <body>
         <Layout
-          navbar={<Navbar logo={<b>Financial Planning Guide</b>} projectLink={REPO_URL} />}
-          footer={<Footer>{new Date().getFullYear()} © Financial Planning Guide</Footer>}
+          navbar={<Navbar logo={<b>AlignFlow · Financial Planning Guide</b>} projectLink={REPO_URL} />}
+          footer={<Footer>{new Date().getFullYear()} © AlignFlow</Footer>}
           docsRepositoryBase={`${REPO_URL}/blob/main`}
           pageMap={pageMap}
         >
