@@ -34,6 +34,7 @@ Step and domain names are provided by the owner in prompts; do not rename or reo
 - pnpm only. Never use npm or yarn.
 - Deployed on Vercel. Keep the build warning-free.
 - Custom CSS and custom components follow hard rule 6, including its WCAG 2.2 AA exception.
+- After a Nextra upgrade or any colour change, run `pnpm theme-audit` against `pnpm start` and fix anything it reports before opening the PR. It checks for dark mode, no theme switch, no neutral greys, text contrast and focus rings on every sidebar page.
 
 ## Writing style
 - Plain English, short paragraphs, active voice. Define a term the first time it appears and link it to the glossary.
