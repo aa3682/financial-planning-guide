@@ -4,6 +4,9 @@ An open, plain-English guide to personal financial planning, organized around th
 
 Built with [Nextra](https://nextra.site) (docs theme) on Next.js. Content lives in `content/` as MDX.
 
+- [Nextra](https://nextra.site) 4 with `nextra-theme-docs`, restyled with a slate theme (dark only) in `app/globals.css`
+- [Outfit](https://github.com/Outfitio/Outfit-Fonts), self-hosted from `fonts/` with `next/font/local`
+
 The Tools section holds a net worth worksheet, a cash flow worksheet, a goals checklist, and a yearly figures page that gathers every limit, rate, and threshold the guide refers to, with sources.
 
 ## Run locally
@@ -32,4 +35,4 @@ Merges to `main` deploy automatically to Vercel.
 
 ## License
 
-The prose in `content/` is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The code is licensed under MIT (see `LICENSE`).
+The prose in `content/` is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The code is licensed under MIT (see `LICENSE`). The Outfit font in `fonts/` is licensed under the SIL Open Font License 1.1 (see `fonts/OFL.txt`).

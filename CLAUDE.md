@@ -1,7 +1,7 @@
 # Financial Planning Guide — repo instructions
 
 ## What this is
-An open, public reference site on personal financial planning, built as a Nextra 4 docs site. Visual reference only: https://www.promptingguide.ai/ — match its look using the stock nextra-theme-docs; never copy its content or components.
+An open, public reference site on personal financial planning, built as a Nextra 4 docs site. Visual reference: https://diy-wealth-framework.vercel.app — the slate theme is ported from it; never copy its content.
 
 Audience: the general public first, practicing financial advisors second. Write for a smart adult with no finance background; add practitioner depth in clearly marked subsections rather than separate pages.
 
@@ -11,6 +11,7 @@ Audience: the general public first, practicing financial advisors second. Write 
 3. Content is educational, not individualized advice. The standard disclaimer lives on each section landing page only (introduction, process, domains, tools). Do not repeat it on individual pages.
 4. Do not invent statistics, thresholds, contribution limits, or tax figures. If a number is year-specific, state the year and cite the source. If unsure, write "[VERIFY]" inline and list it in the report. On knowledge-area pages the figures rule in the area template takes precedence: the number goes on /tools/this-years-figures, not on the page.
 5. No personal data, no real client examples. Worked examples use obviously fictional people.
+6. Slate theme, dark only. The site uses the slate theme defined in app/globals.css, with its accent, page colour and forced dark mode set through documented Nextra props in app/layout.jsx. There is no light theme and no theme switch. Custom CSS is limited to that theme plus WCAG 2.2 AA fixes; each fix cites its SC number and measured ratio in a comment and is kept as small as possible. No custom components unless the owner asks.
 
 ## Attribution and license
 - The guide is published under the AlignFlow brand. The site names no personal name, employer, credentials, or licenses anywhere, on pages or in metadata. Its author is described only by years of experience: "one practitioner with more than fifteen years inside wealth management".
@@ -32,7 +33,7 @@ Step and domain names are provided by the owner in prompts; do not rename or reo
 - Nextra 4, nextra-theme-docs, Next.js App Router, MDX in content/
 - pnpm only. Never use npm or yarn.
 - Deployed on Vercel. Keep the build warning-free.
-- Custom CSS limited to one accent color variable. No custom components unless the owner asks.
+- Custom CSS and custom components follow hard rule 6, including its WCAG 2.2 AA exception.
 
 ## Writing style
 - Plain English, short paragraphs, active voice. Define a term the first time it appears and link it to the glossary.
