@@ -13,7 +13,7 @@ The Tools section holds a net worth worksheet, a cash flow worksheet, a goals ch
 
 ## Run locally
 
-Requires Node.js 20.9 or later and [pnpm](https://pnpm.io).
+Requires Node.js 24 (`engines` and `.nvmrc` both pin it; Vercel reads `engines`) and [pnpm](https://pnpm.io).
 
 ```sh
 pnpm install
